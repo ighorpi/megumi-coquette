@@ -15,7 +15,7 @@ services:
       DATABASE_URL: '${DATABASE_URL}'
 
     networks:
-      - gojo-pharaoh-network
+      - megumi-coquette-network
 networks:
-  gojo-pharaoh-network:
+  megumi-coquette-network:
     driver: bridge

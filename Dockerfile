@@ -5,7 +5,6 @@ RUN apk upgrade -U \
     && rm -rf /var/cache/*
 
 WORKDIR /app
-COPY assets/ assets/
 COPY package*.json .
 COPY tsconfig*.json .
 COPY .eslintrc.js .
